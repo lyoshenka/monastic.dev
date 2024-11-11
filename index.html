@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Monastic.dev</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        background-color: #b5dbf6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      svg {
+        max-width: min(1034px, 95%);
+        max-height: min(1000px, 95%);
+        border-radius: 3px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+        background: #778899;
+      }
+      svg image {
+        display: block;
+      }
+
+      /* fix image not showing up on my iphone*/
+      @media only screen and (max-width: 517px) and (orientation: portrait) {
+        svg {
+          width: 95%;
+        }
+      }
+      @media only screen and (max-height: 500px) and (orientation: landscape) {
+        svg {
+          height: 95%;
+        }
+      }
+
+      a {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 517 500"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <image width="517" height="500" href="/lockedin.jpg" />
+    </svg>
+  </body>
+</html>
